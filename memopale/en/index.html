@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for MemoPale, the character notes app for iPhone by LinkHUB.">
+  <title>MemoPale — Support | LinkHUB</title>
+  <style>
+    :root { color-scheme: light dark; --paper: #f8f7f3; --card: #fff; --ink: #232722; --muted: #596056; --line: #dcded6; --link: #245da8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", sans-serif; line-height: 1.85; overflow-wrap: anywhere; }
+    a { color: var(--link); text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid var(--link); outline-offset: 5px; border-radius: 2px; }
+    .skip { position: absolute; top: -100px; left: 16px; padding: 12px 18px; background: var(--card); z-index: 1; }
+    .skip:focus { top: 12px; }
+    .wrap { max-width: 800px; margin: auto; padding: 32px 24px 48px; }
+    header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+    .brand { font-size: 18px; font-weight: 750; color: var(--ink); text-decoration: none; letter-spacing: -.03em; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 14px; }
+    nav a { min-height: 44px; display: inline-flex; align-items: center; }
+    nav a[aria-current="page"] { color: var(--ink); font-weight: 650; }
+    main { padding-top: 48px; }
+    .eyebrow { color: var(--muted); font-size: 13px; font-weight: 650; letter-spacing: .12em; margin: 0 0 10px; }
+    h1 { font-size: clamp(32px, 7vw, 48px); line-height: 1.4; letter-spacing: -.04em; margin: 0 0 18px; }
+    h2 { font-size: 23px; line-height: 1.55; margin: 0 0 14px; }
+    h3 { font-size: 18px; line-height: 1.7; margin: 0 0 10px; }
+    p { margin: 0 0 16px; }
+    .lead { font-size: 18px; max-width: 37em; }
+    .colors { display: flex; gap: 10px; margin: 30px 0 40px; }
+    .colors span { height: 12px; width: 38px; border-radius: 12px; }
+    .panel { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 26px; margin: 0 0 36px; }
+    .panel p:last-child { margin-bottom: 0; }
+    .contact { display: inline-flex; align-items: center; min-height: 44px; font-weight: 650; }
+    .hint { font-size: 14px; color: var(--muted); }
+    .faq { margin: 0 0 40px; }
+    .faq article { border-bottom: 1px solid var(--line); padding: 24px 0; }
+    .faq article p:last-child { margin-bottom: 0; }
+    ol { padding-left: 1.5em; }
+    li { padding-left: .15em; margin-bottom: 8px; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    footer p { margin-bottom: 6px; }
+    @media (max-width: 420px) { .wrap { padding: 20px 20px 36px; } main { padding-top: 36px; } .panel { padding: 22px 20px; } }
+    @media (prefers-color-scheme: dark) { :root { --paper: #161a18; --card: #202622; --ink: #f1f3ed; --muted: #b5bdb3; --line: #3d473e; --link: #a6c9ff; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">MemoPale <span aria-hidden="true">/</span> LinkHUB</a>
+      <nav aria-label="Site menu">
+        <a href="index.html" aria-current="page">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="../index.html" lang="ja" hreflang="ja">日本語</a>
+      </nav>
+    </header>
+    <main id="main">
+      <p class="eyebrow">MEMOPALE SUPPORT</p>
+      <h1>MemoPale<br>Help &amp; Support</h1>
+      <p class="lead">Give every note a character. MemoPale is an iPhone app that keeps your notes and images with the characters you design, each with its own shape, eyes and color.</p>
+      <div class="colors" aria-hidden="true"><span style="background:#f16b5c"></span><span style="background:#eeb943"></span><span style="background:#54ae95"></span><span style="background:#5596da"></span><span style="background:#a78acb"></span></div>
+
+      <section class="panel" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>Questions and bug reports are welcome by email or on X.</p>
+        <p><a class="contact" href="mailto:support@linkhubstudio.com">support@linkhubstudio.com</a></p>
+        <p><a class="contact" href="https://x.com/Shirona_Link">X (Twitter): @Shirona_Link</a></p>
+        <p class="hint">For bug reports, please include your iPhone model, iOS and app versions, and what you did. Never send passwords, pairing tokens, or the text of your personal notes.</p>
+      </section>
+
+      <section class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">FAQ</h2>
+        <article>
+          <h3>How do I write a note?</h3>
+          <p>Tap a character on the home screen and choose Write. Choose Read to see that character's notes. Open a saved note and tap Edit to change it. Long-press a character on the home screen to see its name and jump straight to Read or Write.</p>
+        </article>
+        <article>
+          <h3>What can I do on the free plan?</h3>
+          <p>Create up to five notes per character, attach images, use voice transcription, and change shapes, eyes and colors. Each character's list shows how many notes you have left. Existing notes above the limit (for example, from sync or a backup) stay readable and editable.</p>
+        </article>
+        <article>
+          <h3>Is Premium a subscription?</h3>
+          <p>No. Premium is a one-time purchase. It removes the note limit and lets you use your own photos as characters. When you choose a photo, you can zoom, position it and pick a circle or rounded frame. The price is shown on the purchase screen in the app.</p>
+        </article>
+        <article>
+          <h3>How do I restore my purchase?</h3>
+          <p>Signed in with the same Apple Account you used to buy, open Settings, go to the Premium screen and tap Restore Purchase. Restoring may need a network connection or Apple Account confirmation.</p>
+        </article>
+        <article>
+          <h3>I'm worried about losing my notes.</h3>
+          <p>Export a backup from Settings → Backup &amp; Recovery and keep it somewhere safe. Make a fresh backup before deleting the app or moving to a new iPhone. MemoPale reminds you when your notes grow and you haven't exported a backup for a while. Copies kept inside the app cannot restore your notes after the app is deleted.</p>
+        </article>
+        <article>
+          <h3>Voice transcription doesn't work.</h3>
+          <p>Check that microphone and speech recognition are allowed in the iPhone Settings app. On-device recognition must be available for the selected language (Japanese or English). MemoPale never switches to cloud speech recognition.</p>
+        </article>
+        <article>
+          <h3>Can I sync with a PC?</h3>
+          <p>PC sync is a beta feature while the PC app is prepared for public release. Contact us if you would like to try it. It connects directly over the same Wi-Fi using an encrypted connection and QR pairing, and needs camera and local network permissions. Networks that block device-to-device traffic, such as some public Wi-Fi, may not work. You don't need a PC to write, read, edit or purchase.</p>
+        </article>
+      </section>
+
+      <section class="panel" aria-labelledby="privacy-title">
+        <h2 id="privacy-title">Your notes and privacy</h2>
+        <p>Notes are stored on your iPhone. No account is needed. See the <a href="privacy.html">Privacy Policy</a> for how PC sync, voice transcription and purchases handle data.</p>
+      </section>
+    </main>
+    <footer>
+      <p>Operated by LinkHUB · © 2026 LinkHUB</p>
+      <p>Updated September 24, 2026</p>
+    </footer>
+  </div>
+</body>
+</html>
